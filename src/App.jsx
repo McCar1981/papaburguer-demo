@@ -1,3 +1,4 @@
+// Papa Burger App
 import { useState, useEffect, useRef, useCallback } from "react";
 import {
   Home, BookOpen, Flame, ClipboardList, User, ShoppingCart, ChevronRight,
