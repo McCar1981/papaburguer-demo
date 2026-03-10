@@ -79,12 +79,9 @@ const ONBOARDING = [
   { title:"Acumula puntos", highlight:"en cada pedido", sub:"Canjea por burgers, bebidas y tablas gratis", type:"icon", Icon:Award },
 ];
 
-const catIconMap = {1:ChefHat,2:UtensilsCrossed,3:Sandwich,4:Star,5:Beer};
-const SUGGESTIONS = [{pid:2,text:"Unas papas?"},{pid:51,text:"Coca-Cola"},{pid:50,text:"Una cerveza?"},{pid:52,text:"Agua"}];
-const PAST_ORDERS = [
-  {id:"po1",number:"PB-2026-000143",date:"Ayer, 21:30",total:18.26,items:[{productId:21,qty:1},{productId:1,qty:1},{productId:51,qty:1}]},
-  {id:"po2",number:"PB-2026-000139",date:"05 Mar",total:24.80,items:[{productId:22,qty:2},{productId:50,qty:2}]},
-];
+`;
+
+export default function
 
 const css = `
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap');
